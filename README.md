@@ -1,10 +1,8 @@
-### Warning:  This is only a temporary repo. 
+# Conan: Distributed Proofs of Compliance for Anonymous Data Collection (CCS '24)
 
-# ShuffleZKP: Proof of Compliance for Anonymous, Unlinkable Messages
+This is a prototype implementation of the Conan protocol. See our paper: https://eprint.iacr.org/2023/1900
 
-This is a prototype implementation of the ShuffleZKP detection protocol. 
-
-**Warning**: The code is not audited and not for any serious commercial or real-world use case. Please use it only for educational purpose.
+**Warning**: The code is not audited and is not intended for any serious commercial or real-world use case. Please use it only for educational purposes.
 
 ### Prerequisite:
 1. Install Go(https://go.dev/doc/install).
@@ -19,8 +17,19 @@ First, `go mod tidy` to set up the dependencies.
 4. `go run aml/aml.go`
 5. `go run blame/blame.go`
 
-Each one line will generate a csv file on the main directory for the experiment results.
+Each line will generate a CSV file on the main directory for the experiment results.
 
 ### Contact
 
-Removed for anonymity
+Mingxun Zhou (mingxunz@andrew.cmu.edu)
+
+### Citation
+
+@inproceedings{conan,
+  title={Conan: Distributed Proofs of Compliance for Anonymous Data Collection},
+  author={Zhou, Mingxun and Fanti, Giulia and Shi, Elaine},
+  booktitle={CCS},
+  year={2024}
+}
+
+
